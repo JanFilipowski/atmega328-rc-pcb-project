@@ -29,19 +29,3 @@ It includes schematic, board layout, project settings, and backup snapshots.
 2. Open `ATMEGA328ip.pcb.kicad_pro`.
 3. Use **Schematic Editor** to inspect the circuit.
 4. Use **PCB Editor** to inspect traces, footprints, and board outline.
-
-## Typical Workflow
-
-1. Validate schematic connectivity with ERC.
-2. Validate board rules with DRC.
-3. Update PCB from schematic if changes were made.
-4. Generate Gerber and drill files for manufacturing.
-
-## Manufacturing Notes
-
-Before ordering boards, verify:
-
-- Board dimensions and edge cuts.
-- Hole diameters and annular rings.
-- Minimum trace/clearance values from your PCB manufacturer.
-- Silkscreen readability and component orientation markers.
